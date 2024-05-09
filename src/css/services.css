@@ -1,0 +1,47 @@
+
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      padding: 10px;
+      height: 300px; /* Should be removed. Only for demonstration */
+    }
+ 
+  }
+
+  .iconed-box-content{
+    background-color: white;
+    padding: 19%;
+    width: 100%;
+    text-align: center;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .uppercase{
+font-size: 14px;
+margin-top: 10px;
+font-family: inherit;
+font-weight: 700;
+line-height: 1.1;
+}
+
+.containerr{
+    padding-left: 0;
+    padding-right: 0;
+}

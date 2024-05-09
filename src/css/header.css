@@ -1,0 +1,56 @@
+
+
+.carousel-control-next-icon:after
+{
+  font-size: 45px;
+}
+
+.carousel-control-prev-icon:after {
+  font-size: 45px;
+}
+
+.nav-link{
+    font-weight: 600 !important;
+    margin-left: 50px;
+    
+}
+.carousel-control-next-iconn, .carousel-control-prev-iconn {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: transparent no-repeat center center;
+  background-size: 100% 100%;}
+  .carousel-control-next-iconn{
+    background-image: url("/public/images/right-arrow.png");
+  }
+  .carousel-control-prev-iconn{
+    background-image: url("/public/images/back.png");
+  }
+.nav-font{
+  margin-right: 20px;
+  font-family: Lato;
+  font-size: 20px;
+    font-weight: 500 !important
+}
+
+.nav-font:hover{
+  color: #FF7D00;
+}
+.socialtop{
+  /* float: right; */
+ 
+}
+.top-social{
+  padding: 14px 15px;
+
+}
+.top-social a{
+  padding: 13px;
+  color: BLACK;
+}
+.top-social a:hover{
+color: #FF7D00;
+}
+.a:hover{
+color:#FF7D00
+}
