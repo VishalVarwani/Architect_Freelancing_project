@@ -201,11 +201,28 @@ export default function Contacts() {
       
     </section>
     <h1 className="section-subheading" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>Find us on google maps</h1>
-    <div className="maps"style={{display:"flex",justifyContent: 'space-evenly', marginBottom: 100, alignItems: 'center', alignContent:"center",}}><iframe className="map2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.3009245164703!2d72.96346227521022!3d19.26927558197546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bba3aecb71eb%3A0x397344c210542ec0!2sInterior%20Design%20Services%20-%20Studio%20Elements!5e0!3m2!1sen!2sin!4v1713190287950!5m2!1sen!2sin"
-     width="500" height="450" style={{border:"0", }}
-    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe><iframe className="map1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.5681576487345!2d78.38462507493576!3d17.432499983462435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb915717ccbea5%3A0xdc04b2d31f9e1cd9!2sRegus%20-%20Hyderabad%20Hitech%20City!5e0!3m2!1sen!2sin!4v1713190398023!5m2!1sen!2sin"
-    width="500" height="450" style={{border:"0", }} 
-   allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe> </div>
+    <div className="maps"style={{display:"flex",justifyContent: 'space-evenly', marginBottom: 100, alignItems: 'center', alignContent:"center",}}>
+      <iframe
+  className="map-iframe"
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.3009245164703!2d72.96346227521022!3d19.26927558197546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bba3aecb71eb%3A0x397344c210542ec0!2sInterior%20Design%20Services%20-%20Studio%20Elements!5e0!3m2!1sen!2sin!4v1713190287950!5m2!1sen!2sin"
+  width="400"
+  height="250"
+  style={{ border: "0" }}
+  allowfullscreen=""
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade"
+></iframe>
+<iframe
+  className="map-iframe"
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.5681576487345!2d78.38462507493576!3d17.432499983462435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb915717ccbea5%3A0xdc04b2d31f9e1cd9!2sRegus%20-%20Hyderabad%20Hitech%20City!5e0!3m2!1sen!2sin!4v1713190398023!5m2!1sen!2sin"
+  width="400"
+  height="250"
+  style={{ border: "0" }}
+  allowfullscreen=""
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade"
+></iframe>
+ </div>
     
    
     </div>

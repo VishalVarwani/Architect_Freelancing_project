@@ -12,13 +12,18 @@ export default function Home() {
         </ol>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img className="img d-block mx-auto" src="images\Homepage\Option (1).jpg" style={{width: "500px", height: "300px"}} alt="First slide" />
+            <img className="img d-block mx-auto" src="images\Homepage\Option (1).jpg" style={{width: "700px", height: "300px"}} alt="First slide" />
           </div>
           <div className="carousel-item">
-            <img className="img d-block mx-auto" src="images\Homepage\Option (2).jpg" style={{width: "500px", height: "300px"}} alt="Second slide" />
+            <img className="img d-block mx-auto" src="images\Homepage\Option (2).jpg" style={{width: "700px", height: "300px"}} alt="Second slide" />
           </div>
           <div className="carousel-item">
-            <img className="img d-block mx-auto" src="images\Homepage\Option (3).jpg" style={{width: "500px", height: "300px"}} alt="Third slide" />
+            <img className="img d-block mx-auto" src="images\Homepage\Option (3).jpg" style={{width: "700px", height: "300px"}} alt="Third slide" />
+          </div>
+          <div className="carousel-item">
+            <img className="img d-block mx-auto" src="images\Homepage\Option (4).jpg" style={{width: "700px", height: "300px"}} alt="Second slide" />
+          </div>  <div className="carousel-item">
+            <img className="img d-block mx-auto" src="images\Homepage\Option (5).jpg" style={{width: "700px", height: "300px"}} alt="Second slide" />
           </div>
         </div>
         <a style={{color:"black"}} className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

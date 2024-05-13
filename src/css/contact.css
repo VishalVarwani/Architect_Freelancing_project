@@ -32,6 +32,45 @@ padding-left: 50px;
 
   }
   }
+  .map-iframe {
+    border: none; /* Remove border to make it cleaner */
+    border-radius: 8px; /* Add border radius for a smoother appearance */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    margin-bottom: 20px; /* Add some margin to separate the maps */
+  }
+  
+  /* Style for the section heading */
+  .section-subheading {
+    text-align: center;
+    color: #000; /* Set text color to black */
+    margin-top: 50px; /* Add space between maps and heading */
+  }
+  
+  /* Style for the map container */
+  .map-container {
+    max-width: 800px; /* Limit the maximum width of the map container */
+    margin: 0 auto; /* Center the map container horizontally */
+  }
+  
+  /* Style for the map section */
+  .map-section {
+    background-color: #f9f9f9; /* Add a light background color to the map section */
+    padding: 50px 0; /* Add padding to the top and bottom of the map section */
+  }
+  
+  /* Style for the map heading */
+  .map-heading {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  /* Style for the map iframe */
+  .map-iframe {
+    height: 300px; /* Adjust the height of the map iframe */
+    border-radius: 8px; /* Add border radius for a smoother appearance */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
   h3 {
     color: white;
   }
@@ -186,4 +225,3 @@ padding-left: 50px;
     font-size: 16px;
     color: #000000;
   }
-  

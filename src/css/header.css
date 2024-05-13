@@ -12,6 +12,8 @@
 .nav-link{
     font-weight: 600 !important;
     margin-left: 50px;
+    -webkit-filter: drop-shadow(2px 3px 4px rgb(0, 0, 0.9));
+    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, .2));
     
 }
 .carousel-control-next-iconn, .carousel-control-prev-iconn {
@@ -30,7 +32,9 @@
   margin-right: 20px;
   font-family: Lato;
   font-size: 20px;
-    font-weight: 500 !important
+    font-weight: 500 !important;
+    -webkit-filter: drop-shadow(2px 3px 4px rgb(0, 0, 0.9));
+    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, .2));
 }
 
 .nav-font:hover{
@@ -42,15 +46,34 @@
 }
 .top-social{
   padding: 14px 15px;
+  -webkit-filter: drop-shadow(2px 3px 4px rgb(0, 0, 0));
+filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, .2));
 
 }
 .top-social a{
   padding: 13px;
   color: BLACK;
+  -webkit-filter: drop-shadow(2px 3px 4px rgb(0, 0, 0));
+filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, .2));
 }
 .top-social a:hover{
 color: #FF7D00;
 }
 .a:hover{
 color:#FF7D00
+}
+
+
+
+
+
+
+.nav-link.active {
+  -webkit-filter: drop-shadow(2px 3px 4px rgba(0, 0, 0, 0.9));
+  filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.2));
+}
+
+.collapse{
+  -webkit-filter: drop-shadow(2px 3px 4px rgba(0, 0, 0, 0.1));
+  filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.2));
 }
