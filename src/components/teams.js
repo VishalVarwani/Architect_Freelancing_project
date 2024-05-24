@@ -76,7 +76,9 @@ export default function Teams() {
 
      
       }}>OUR TALENTED TEAM</h1>
-       <img className="teammembers" src={teammembersimg} alt="CEO" />
+      <div className="team-members-image-container">
+        <img className="teammembers" src={teammembersimg} alt="Team Members" />
+      </div>
     </div>
 
      {/* <div style={{marginTop:"5%", marginLeft:"1%", marginRight:"1%"}} className="card-deck">
